@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col bg-[#f8fcf8] justify-between group/design-root overflow-x-hidden"
+      style='font-family: Manrope, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#f8fcf8] p-4 pb-2 justify-between">
+          <h2 class="text-[#0d1b0d] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12 pr-12">تسجيل الدخول</h2>
+        </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <input
+              placeholder="اسم المستخدم/البريد الإلكتروني"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d1b0d] focus:outline-0 focus:ring-0 border border-[#cfe7cf] bg-[#f8fcf8] focus:border-[#cfe7cf] h-14 placeholder:text-[#4c9a4c] p-[15px] text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
+        </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <input
+              placeholder="كلمة المرور"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d1b0d] focus:outline-0 focus:ring-0 border border-[#cfe7cf] bg-[#f8fcf8] focus:border-[#cfe7cf] h-14 placeholder:text-[#4c9a4c] p-[15px] text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
+        </div>
+      </div>
+      <div>
+        <div class="flex px-4 py-3">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-[#11d411] text-[#0d1b0d] text-base font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">تسجيل الدخول</span>
+          </button>
+        </div>
+        <p class="text-[#4c9a4c] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline">نسيت كلمة المرور؟</p>
+        <p class="text-[#4c9a4c] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline">إنشاء حساب جديد</p>
+        <div class="h-5 bg-[#f8fcf8]"></div>
+      </div>
+    </div>
+  </body>
+</html>
